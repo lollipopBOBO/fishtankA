@@ -1,0 +1,332 @@
+/*@import "_variable";*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Roboto; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+.wrap {
+  max-width: 1200px; }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: block; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px; } }
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px; } }
+
+h1 {
+  font-size: 48px;
+  line-height: 1.6; }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #AA0601;
+  padding-left: 39px;
+  padding-right: 56px; }
+
+.logo {
+  padding-top: 30px;
+  padding-bottom: 29.43px; }
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 41px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.navbar li {
+  font-size: 20px;
+  color: #fff; }
+
+.navbar li a {
+  padding-left: 32px;
+  padding-right: 32px; }
+
+.navbar li a:hover {
+  background: #fff;
+  color: #AA0601; }
+
+@media (max-width: 768px) {
+  header {
+    padding-right: 29px; }
+  .navbar li a {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (max-width: 375px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0; }
+  .logo {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .navbar {
+    padding: 0; }
+  .navbar li {
+    border-top: #fff solid 1px;
+    border-right: #fff solid 1px;
+    width: 50%;
+    text-align: center; }
+  .navbar li a {
+    width: 100%;
+    padding: none; } }
+
+footer {
+  background-color: #AA0601;
+  color: #fff; }
+
+.function {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  border-bottom: #fff solid 1px; }
+
+.nav-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.f-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.f-nav-1 {
+  padding-right: 24px; }
+
+.f-nav-2, .f-nav-3, .f-nav-4 {
+  padding-left: 24px;
+  padding-right: 24px; }
+
+.f-nav-5 {
+  padding-left: 24px; }
+
+.snsicon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.snsicon-fb {
+  padding-right: 16px; }
+
+.snsicon-ig {
+  padding-right: 16px;
+  padding-left: 16px; }
+
+.snsicon-line {
+  padding-left: 16px; }
+
+.mail-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 24px; }
+
+.mail-phone li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.mail-phone li a {
+  margin-left: 22px;
+  font-size: 36px;
+  color: #fff; }
+
+.laws {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+  padding-top: 32px; }
+
+.laws ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.politics {
+  padding-right: 24px; }
+
+.service {
+  padding-left: 24px; }
+
+@media (max-width: 768px) {
+  .f-nav-1 {
+    padding-right: 10px; }
+  .f-nav-2, .f-nav-3, .f-nav-4 {
+    padding-left: 10px;
+    padding-right: 10px; }
+  .f-nav-5 {
+    padding-left: 10px; }
+  .mail-phone li a {
+    margin-left: 11px;
+    font-size: 20px; }
+  .phone {
+    width: 18px;
+    height: 18px; }
+  .email {
+    width: 18px;
+    height: 18px; }
+  .snsicon-fb {
+    padding-right: 12px; }
+  .snsicon-ig {
+    padding-right: 12px;
+    padding-left: 12px; }
+  .snsicon-line {
+    padding-left: 12px; }
+  .fb {
+    width: 24px;
+    height: 24px; }
+  .ig {
+    width: 24px;
+    height: 24px; }
+  .line {
+    width: 24px;
+    height: 24px; }
+  .laws {
+    padding-bottom: 32px; } }
+
+@media (max-width: 375px) {
+  .f-nav {
+    display: none; }
+  .mail-phone {
+    padding: 0; }
+  .laws {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 24px; }
+  .laws ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .politics {
+    padding-right: 0; }
+  .service {
+    padding-left: 0; } }
+
+/*@import "_qa";
+@import "_blog";*/
+
+/*# sourceMappingURL=all.css.map */
