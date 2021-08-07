@@ -1,4 +1,3 @@
-/*@import "_variable";*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -81,9 +80,14 @@ a {
   .container {
     max-width: 375px; } }
 
-h1 {
+.title-deco {
+  margin-right: 16px;
+  border-left: #AA0601 solid 7px;
   font-size: 48px;
-  line-height: 1.6; }
+  line-height: 1.6;
+  font-weight: 700;
+  margin-top: 96px;
+  padding-left: 16px; }
 
 header {
   display: -webkit-box;
@@ -205,6 +209,10 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.f-nav ul li a:hover {
+  background: #fff;
+  color: #AA0601; }
+
 .snsicon-fb {
   padding-right: 16px; }
 
@@ -214,6 +222,10 @@ footer {
 
 .snsicon-line {
   padding-left: 16px; }
+
+.snsicon ul li a:hover {
+  background: grey;
+  color: #AA0601; }
 
 .mail-phone {
   display: -webkit-box;
@@ -326,7 +338,149 @@ footer {
   .service {
     padding-left: 0; } }
 
-/*@import "_qa";
-@import "_blog";*/
+.qa-h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1.5;
+  margin-bottom: 36px;
+  margin-top: 60px;
+  font-family: "Noto Sans TC", sans-serif; }
+
+.regular-qa {
+  margin-bottom: 128px;
+  font-family: "Noto Sans TC", sans-serif; }
+  .regular-qa li {
+    margin-bottom: 32px; }
+    .regular-qa li h3 {
+      font-size: 20px;
+      line-height: 1.4;
+      font-weight: bold; }
+
+.regular-qa li p {
+  padding-left: 90px;
+  margin-top: 16px; }
+
+.mb-60 {
+  margin-bottom: 60px; }
+
+.mt-40 {
+  margin-top: 40px; }
+
+.blog-bar {
+  background-color: #650300; }
+
+.search-shortcut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.shortcut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .shortcut li {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 20px;
+    line-height: 1.2; }
+    .shortcut li a {
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 12px;
+      padding-bottom: 12px; }
+    .shortcut li a:hover {
+      color: #650300;
+      background-color: #fff; }
+
+.search {
+  width: 24px;
+  height: 24px;
+  padding-top: 11px;
+  padding-bottom: 11px; }
+
+.article-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px; }
+
+.article-word {
+  margin-left: 30px;
+  color: #555555;
+  font-size: 20px;
+  line-height: 1.5; }
+
+.article-word h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: right;
+  margin-top: 16px; }
+  .article-word h3 a {
+    color: #650300; }
+  .article-word h3 a:hover {
+    background-color: #650300;
+    color: #fff; }
+
+.article-word h2 {
+  color: #650300;
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: bold; }
+
+.sub-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24px;
+  font-family: "Roboto", sans-serif; }
+
+.sub-title p {
+  font-size: 16px;
+  line-height: 1.5; }
+
+.title-left {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif; }
+
+.pages {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 36px;
+  margin-bottom: 160px;
+  margin-left: 365px; }
+
+.page-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .page-bar li {
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    border-left: 1px solid #555555;
+    border-right: 1px solid #555555; }
+    .page-bar li a {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 16px;
+      padding-right: 16px;
+      color: #000000; }
+    .page-bar li a:hover {
+      background-color: #000000;
+      color: #fff; }
+
+.btn-word {
+  background-color: #F2F2F2; }
 
 /*# sourceMappingURL=all.css.map */
