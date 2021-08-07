@@ -1,0 +1,51 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+  }
+
+body{
+ font-size: 16px;
+ line-height: 1.5;
+ font-family: Roboto;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;  
+}
+.wrap{
+    max-width: 1200px;
+}
+a{
+    color: #fff;
+    text-decoration:none;
+    display: block;
+}
+
+.container {
+    max-width: 1140px; 
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  @media (max-width: 768px) {
+    .container{
+    max-width: 720px; 
+    }
+  }
+  @media (max-width: 375px) {
+    .container{
+     max-width: 375px; 
+    }
+  }
+
+  .title-deco{
+    margin-right: 16px;
+    border-left: $primary solid 7px;
+    font-size: 48px;
+    line-height: 1.6;
+    font-weight: 700;
+    margin-top: 96px;
+    padding-left: 16px;
+  }
+
+ 

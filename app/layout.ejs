@@ -10,15 +10,61 @@
 </head>
 
 <body>
-  <header class="header">
-    這是 header
-  </header>
+    <header>
+        <a class="logo  "href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true"></a>
+        <ul class="navbar">
+            <li><a href="#">系列鏡框</a></li>
+            <li><a href="#">門市據點</a></li>
+            <li><a href="blog.html">部落格</a></li>
+            <li><a href="qa.html">常見問題</a></li>
+        </ul>
+    </header>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
-  </footer>
+  <footer>
+    <div class="container">   
+     <div class="function">
+            <div class="nav-con">
+            <div class="f-nav">
+               <ul>
+                   <li><a class="f-nav-1" href="index.html">首頁</a></li>
+                   <li><a class="f-nav-2" href="#">系列鏡框</a></li>
+                   <li><a class="f-nav-3" href="#">門市據點</a></li>
+                   <li><a class="f-nav-4" href="blog.html">部落格</a></li>
+                   <li><a class="f-nav-5" href="qa.html">常見問題</a></li>
+               </ul>
+             </div>  
+               <div class="contact">
+                <ul class="mail-phone">
+                    <li>
+                        <img class="phone"src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-phone.svg" alt="">
+                        <a href="tel:+0800-000-000">0800-000-000</a>
+                    </li>
+                    <li>
+                        <img class="email"src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-mail.svg" alt="">
+                        <a href="mailto:glasses@business.com">glasses@business.com</a>
+                    </li>
+                </ul>
+            </div>
+           </div>
+           <div class="snsicon">
+               <ul>
+                   <li><a class="snsicon-fb" href="#"><img class="fb"src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-fb.svg"></a></li>
+                   <li><a class="snsicon-ig" href="#"><img class="ig"src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-ig.svg"></a></li>
+                   <li><a class="snsicon-line" href="#"><img class="line"src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-line.svg"></a></li>
+               </ul>
+           </div>
+     </div>
+       <div class="laws">
+           <p>Copyright © 2020 Glasses.All rights reserved.</p>
+           <ul>
+               <li><a class="politics" href="#">隱私權政策</a></li>
+               <li><a class="service" href="#">服務條款</a></li>
+           </ul>
+       </div>
+    </div>  
+   </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>

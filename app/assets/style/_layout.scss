@@ -1,0 +1,230 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #AA0601;
+    padding-left: 39px;
+    padding-right: 56px; 
+  }
+  
+  .logo{
+    padding-top: 30px;
+    padding-bottom: 29.43px;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38px;
+    padding-bottom: 41px;
+    flex-wrap: wrap;
+  }
+  .navbar li{
+    font-size: 20px;
+    color: #fff;
+  }
+  .navbar li a{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .navbar li a:hover{
+    background: #fff;
+    color: #AA0601;
+}
+  @media (max-width: 768px) {
+    header{
+    padding-right: 29px;
+           }
+    .navbar li a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    header{
+    flex-direction: column; 
+    align-items: center;
+    padding: 0;
+    }
+    .logo {
+       padding-top: 10px;
+       padding-bottom: 10px;
+    }
+    .navbar{
+        padding: 0;   
+    }
+    .navbar li{
+        border-top: #fff solid 1px;
+        border-right: #fff solid 1px;;
+        width: 50%;
+        text-align: center;
+       
+    }
+    .navbar li a{
+      width: 100%;
+      padding: none;
+    }
+  }
+
+  footer{
+    background-color: #AA0601;
+    color: #fff
+  }
+  .function{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    border-bottom: #fff solid 1px;
+}
+ .nav-con{
+     display: flex;
+     flex-direction: column;
+ }
+ .f-nav ul{
+    display: flex;
+    justify-content: space-between;
+ }    
+
+.f-nav-1
+ {padding-right: 24px;
+}
+
+ .f-nav-2,.f-nav-3,.f-nav-4{
+   padding-left: 24px;
+   padding-right: 24px;
+ }
+ .f-nav-5
+ {padding-left: 24px;}
+ .snsicon ul{
+   display: flex;
+   justify-content: space-between;
+ }
+ .f-nav ul li a:hover{
+  background: #fff;
+  color: #AA0601;
+}
+ .snsicon-fb{
+  padding-right: 16px;
+ }
+ .snsicon-ig{
+    padding-right: 16px;
+    padding-left: 16px;
+ }
+ .snsicon-line{
+    padding-left: 16px
+ }
+.snsicon ul li a:hover{
+  background: grey;
+  color: #AA0601;
+} 
+ .mail-phone {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    
+ }
+ .mail-phone li{
+    display: flex; 
+    align-items: center;
+ }
+ .mail-phone li a{
+    margin-left: 22px;
+    font-size: 36px;
+    color:#fff;
+ }
+ .laws{
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 40px;
+     padding-top: 32px;
+ }
+ .laws ul{
+     display: flex;
+     justify-content: space-between;
+ }
+ .politics{
+     padding-right: 24px;
+ }
+ .service{
+     padding-left: 24px;
+ }
+
+ @media (max-width: 768px){
+    .f-nav-1{
+      padding-right: 10px;
+   }
+   
+    .f-nav-2,.f-nav-3,.f-nav-4{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .f-nav-5{
+      padding-left: 10px;
+    }
+    .mail-phone li a{
+        margin-left: 11px;
+        font-size: 20px;
+     }
+    .phone{
+        width: 18px;
+        height: 18px;
+    }
+    .email{
+        width: 18px;
+        height: 18px;
+    }
+    .snsicon-fb{
+        padding-right: 12px;
+       
+       }
+    .snsicon-ig{
+          padding-right: 12px;
+          padding-left: 12px;
+         
+       }
+    .snsicon-line{
+          padding-left: 12px;
+          
+       }
+    .fb{
+        width: 24px;
+        height: 24px;
+      }
+    .ig{
+        width: 24px;
+        height: 24px;
+      }
+      .line{
+        width: 24px;
+        height: 24px;
+      }
+     .laws{
+        padding-bottom: 32px;
+    }
+ }
+
+ @media (max-width: 375px) {
+     .f-nav{
+         display: none;
+     }
+     .mail-phone{
+         padding: 0;
+     }
+     .laws{
+        display: flex;
+        flex-direction: column;
+        padding-top: 16px;
+        padding-bottom: 24px;
+    }
+    .laws ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .politics{
+            padding-right: 0;
+        }
+    .service{
+            padding-left: 0;
+        }
+ }

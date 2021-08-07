@@ -1,0 +1,131 @@
+.mb-60{
+    margin-bottom: 60px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.blog-bar{
+    background-color: $primary-dark;
+}
+.search-shortcut{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shortcut{
+    display: flex;
+    justify-content: space-between;
+
+ li{
+    font-family: $font-noto;
+    font-size: 20px;
+    line-height: 1.2;
+    a{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    a:hover{
+        color:$primary-dark ;
+        background-color:$secondary ;
+    }
+}
+}
+.search{
+    width: 24px;
+    height: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+
+.article-card{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.article-word{
+    margin-left: 30px;
+    color:$dark-second;
+    font-size: 20px;
+    line-height: 1.5;
+ 
+}
+
+.article-word  h3{
+    font-weight:700;
+    font-size: 36px;
+    line-height:1.5;
+    text-align: right;
+    margin-top: 16px;
+    a{
+        color:$primary-dark;
+    }
+    a:hover {
+        background-color: $primary-dark;
+        color:$secondary ;
+    }
+
+
+}
+.article-word h2{
+    color:$primary-dark;
+    font-size: 32px;
+    line-height: 1.5;  
+    font-weight: bold;
+}
+.sub-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-family: $font-roboto;
+}
+.sub-title p{ 
+    
+    font-size: 16px;
+    line-height: 1.5;
+   
+
+}
+.title-left{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: $font-roboto;
+}
+.pages{
+    font-family: $font-roboto ;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 36px;
+    margin-bottom: 160px;
+    margin-left: 365px;   
+}   
+    .page-bar{
+        display: flex;    
+    
+     li{
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555 ;
+    border-left:  1px solid #555555;
+    border-right:  1px solid #555555;  
+     a{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        color: #000000;
+    }
+    a:hover{
+        background-color: #000000;
+        color: $secondary;
+    }
+  }
+} 
+
+.btn-word{
+    background-color:#F2F2F2;
+}
+
+
